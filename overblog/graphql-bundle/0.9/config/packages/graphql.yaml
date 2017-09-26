@@ -1,0 +1,8 @@
+overblog_graphql:
+    definitions:
+        schema: ~
+        mappings:
+            types:
+                -
+                    type: yaml # [ yaml, xml ] this is required right now but will accept null in future
+                    dir: "%kernel.project_dir%/config/graphql"
